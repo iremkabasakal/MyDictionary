@@ -6,13 +6,13 @@ namespace MyDictionary
     {
         static void Main(string[] args)
         {
-            MyDictionary<string, string> sehirler = new MyDictionary<string, string>();
+            MyDictionary<string, string> SehirleriYaz = new MyDictionary<string, string>();
 
-            sehirler.Add("06", "Ankara");
-            sehirler.Add("34", "İstanbul");
-            sehirler.Add("35", "İzmir");
+            SehirleriYaz.Add("06", "Ankara");
+            SehirleriYaz.Add("34", "İstanbul");
+            SehirleriYaz.Add("35", "İzmir");
 
-            sehirler.sehirler();
+            SehirleriYaz.sehirler();
 
         }
     }
