@@ -34,6 +34,7 @@ namespace MyDictionary
 
         }
 
+
         public void sehirler()
         {
             for (int i = 0; i < keys.Length; i++)
