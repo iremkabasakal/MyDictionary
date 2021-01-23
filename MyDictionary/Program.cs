@@ -12,7 +12,7 @@ namespace MyDictionary
             sehirler.Add("34", "İstanbul");
             sehirler.Add("35", "İzmir");
 
-            Console.WriteLine(sehirler);
+            sehirler.sehirler();
 
         }
     }
